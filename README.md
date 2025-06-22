@@ -191,7 +191,7 @@ A comprehensive real-time psychological analysis system:
 
 ## 📊 Logging & Data Tracking
 
-### Memory Logger (`memory_logger.py`)
+### Memory Logger (`akira_memories.py`)
 Comprehensive logging system that tracks:
 
 #### Conversation Logs
@@ -260,7 +260,7 @@ pip install numpy ollama
 
 ### Running Akira
 ```bash
-python memory_app.py
+python akira.py
 ```
 
 ### First Interaction
@@ -325,10 +325,10 @@ I have such clear preferences and thoughts about things...
 ## 🔧 Technical Architecture
 
 ### Core Components
-- **memory_app.py** (44KB, 985 lines) - Main consciousness system
-- **personality_system.py** (20KB, 381 lines) - Dynamic personality evolution  
-- **emotion_monitor.py** (19KB, 390 lines) - Real-time emotion tracking
-- **memory_logger.py** (16KB, 358 lines) - Comprehensive activity logging
+- **akira** (44KB, 985 lines) - Main consciousness system
+- **akira_personality** (20KB, 381 lines) - Dynamic personality evolution  
+- **akira_emotion** (19KB, 390 lines) - Real-time emotion tracking
+- **akira_memories** (16KB, 358 lines) - Comprehensive activity logging
 
 ### System Integration
 - **Ollama Integration**: Uses llama3 model for natural language processing
